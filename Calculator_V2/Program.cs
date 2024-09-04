@@ -18,10 +18,10 @@ namespace Calculator_V2
                     Console.WriteLine(" \t\t\t\t Calculator ");
 
                     Console.Write("Enter the first number: ");
-                    int x = int.Parse(Console.ReadLine());
+                    decimal x = decimal.Parse(Console.ReadLine());
 
                     Console.Write("Enter the second number:");
-                    int y = int.Parse(Console.ReadLine());
+                    decimal y = decimal.Parse(Console.ReadLine());
 
                     Console.Clear();
 
